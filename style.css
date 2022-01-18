@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-item { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.nav-item:hover { 
+    transform: scale(1.1); 
+    }
+
+a, a:visited{ 
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    font-size: 20px;
+    color: blanchedalmond;
+    
+}
+
+#header-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1 0 ;
+    
+}
+
+.nav-item {
+    padding-right: 40px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+#home {
+    background-image: url(Fernando-Ubiergo-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+background-repeat: no-repeat;
+vertical-align: middle;
+min-height: 100vh;
+position: relative;
+
+}
+
+#FU{
+    font-size: 50px;
+    color: blanchedalmond;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#escuchalo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#spotify {
+    margin-top: 250px;
+    margin-bottom: 25px;
+    padding-right: 300px;
+    width: 250px;
+    height: 80px;
+}
+
+
+#discography {
+    
+    background-image: url(fu1.jpg);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+#galeria{
+    background-image: url(fu2.jpg);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+
+}
+#banda {
+    background-image: url(fu3.jpg);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+#contacto{
+    background-color: black;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
