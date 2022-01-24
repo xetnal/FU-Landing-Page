@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    
+        
+        
+      
+  }
+
+
+.nav-item { 
+    transition: all .2s ease-in-out; 
+    }
+    
+.nav-item:hover { 
+    transform: scale(1.1); 
+    }
+
+a, a:visited{ 
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+nav {
+    
+    
+}
+
+#header-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1 0 ;
+    
+}
+
+.nav-item {
+    padding-right: 40px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+.burger{
+    display: none;
+    margin-top: 5px;
+}
+.burger div{
+    margin-top: 5px;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color:blanchedalmond;
+}
+
+@media screen and (max-width:768px)  {
+    body {
+        overflow-x: hidden;
+    }
+    
+    nav{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+#home {
+    background-image: url(assets/FU.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+#FU{
+    font-size: 50px;
+    color: blanchedalmond;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#discography {
+    
+    background-image: url(assets/FU2.jpg);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+#galeria{
+    background-image: url(assets/FU3.jpg);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+
+}
+#banda {
+    background-image: url(assets/FU4.jpg);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+#contacto{
+    background-color: black;
+    margin-top: 100px;
+    background-size: cover;
+    background-position: top;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
