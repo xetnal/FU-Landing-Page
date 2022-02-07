@@ -2,14 +2,17 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Freehand', cursive;
-    
     background-color: black;
+    font-family: 'typewriter';
 }
 html{
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
+}
+@font-face {
+    font-family: 'typewriter';
+    src: url(assets/OldNewspaperTypes.ttf);
 }
 nav{
     width: 100%;
@@ -24,6 +27,29 @@ nav{
     
     
 }
+.listenOn{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 30%;
+}
+.spotifylogo{
+    transition: all .2s ease-in-out;
+    height: 100px;
+    width: 250px;
+}
+.spotifylogo:hover{
+    transform: scale(1.1);
+}
+.apple{
+    transition: all .2s ease-in-out; 
+    height: 100px;
+    width: 250px;
+}
+.apple:hover{
+    transform: scale(1.1);
+}
 .logo{
     display: flex;
     width: 30%;
@@ -31,7 +57,7 @@ nav{
     font-size: 30px;
     color: rgb(224, 223, 220);
     padding-right: 5%;
-        
+     
     
 }
 .nav-links {
@@ -78,6 +104,108 @@ li{
     transition: all 0.3s ease;
 }
 
+
+.toggle .line1{
+     transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+     opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+#home {
+    background-image: url(assets/portada2.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+    margin-bottom: 100px;
+    
+}
+
+
+#discography {
+    
+    background-image: url(assets/valpo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    margin-bottom: 100px;
+    
+}
+h1{
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.discos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+.portada{
+    height: 350px;
+    width: 350px;
+    box-shadow:         12px 12px 29px #555;
+}
+.portaldisc{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-shadow: 5px 5px #080808;
+    transition: all .2s ease-in-out; 
+    padding-bottom: 10%;
+}
+.portaldisc:hover{
+    transform: scale(1.05);
+}
+
+#galeria{
+    background-image: url(assets/valpo2.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foto{
+    height: 350px;
+    width: 450px;
+    box-shadow:         12px 12px 29px #555;
+    margin: 5%;
+}
+.linkgaleria{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-shadow: 5px 5px #080808;
+    transition: all .2s ease-in-out; 
+    padding-bottom: 10%;
+}
+.linkgaleria:hover{
+    transform: scale(1.05);
+}
+
 @media screen and (max-width: 768px) {
     body{
         overflow-x: hidden;
@@ -108,7 +236,32 @@ li{
         display: block;
         cursor: pointer;
     }
-    
+    .listenOn{
+        flex-direction: column;
+    }
+    .apple{
+        margin-right: 0%;
+        height: 70px;
+        width: 180px;
+    }
+    .spotifylogo{
+        height: 70px;
+        width: 180px;
+    }
+    .discos{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .portada{
+        margin: 5%;
+    }
+    .fotos{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .foto{
+        margin: 5%;
+    }
 }
 .nav-active{
     transform: translateX(0%);
@@ -124,39 +277,4 @@ li{
         opacity: 1;
         transform: translateX(0px);
     }
-}
-.toggle .line1{
-     transform: rotate(-45deg) translate(-5px, 6px);
-}
-.toggle .line2{
-     opacity: 0;
-}
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
-#home {
-    background-image: url(assets/Home.jpg);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100%;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    min-height: 100vh;
-    position: relative;
-    margin-bottom: 500px;
-    
-
-}
-#discography {
-    
-    background-image: url(assets/Home.jpg);
-    background-size: cover;
-    background-position: center center;
-    min-height: 100%;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    min-height: 100vh;
-    
-    
 }
