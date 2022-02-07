@@ -151,13 +151,13 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 15%;
     padding-bottom: 5%;
 }
 .portada{
     height: 350px;
     width: 350px;
-    box-shadow:         12px 12px 29px #555;
+    box-shadow:         12px 12px 29px rgb(19, 16, 16);
 }
 .portaldisc{
     font-size: 65px;
@@ -188,9 +188,9 @@ h1{
     flex-wrap: wrap;
 }
 .foto{
-    height: 350px;
-    width: 450px;
-    box-shadow:         12px 12px 29px #555;
+    height: 400px;
+    width: 550px;
+    box-shadow:         12px 12px 29px rgb(12, 10, 10);
     margin: 5%;
 }
 .linkgaleria{
