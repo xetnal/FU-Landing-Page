@@ -218,7 +218,10 @@ h1{
         overflow-x: hidden;
     }
     
-    
+    .foto{
+        height: 200px;
+        width: 225px;
+    }
     .nav-links{
         position: absolute;
         right: 0px;
