@@ -217,7 +217,10 @@ h1{
     body{
         overflow-x: hidden;
     }
-    
+    .rrss{
+        display: flex;
+        flex-direction: column;
+    }
     .foto{
         height: 200px;
         width: 250px;
