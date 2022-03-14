@@ -358,3 +358,13 @@ p{
 .fono{
     font-size: 50px;
 }
+#contacto{
+    background-image: url(assets/fondo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
