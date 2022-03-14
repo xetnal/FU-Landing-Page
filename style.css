@@ -289,6 +289,12 @@ h1{
     .foto{
         margin: 5%;
     }
+    .linkgaleria{
+        font-size: 45px;
+    }
+    .portaldisc{
+        font-size: 45px;
+    }
 }
 .nav-active{
     transform: translateX(0%);
