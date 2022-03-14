@@ -286,7 +286,10 @@ span{
 .linkgaleria:hover{
     transform: scale(1.05);
 }
-
+h1{
+    color: white;
+    font-size: 150px;
+}
 @media screen and (max-width: 768px) {
     body{
         overflow-x: hidden;
@@ -298,6 +301,9 @@ span{
     .foto{
         height: 200px;
         width: 300px;
+    }
+    h1{
+        font-size: 100px;
     }
     .nav-links{
         position: absolute;
@@ -380,10 +386,7 @@ span{
     align-items: center;
 }
 
-h1{
-    color: white;
-    font-size: 150px;
-}
+
 p{
     color: white;
     font-size: 20px;
