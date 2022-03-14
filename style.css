@@ -57,6 +57,17 @@ nav{
 .apple:hover{
     transform: scale(1.1);
 }
+.homeRRSS{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.rrssIcon{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-top: 25px;
+}
 .logo{
     display: flex;
     width: 60%;
@@ -242,7 +253,11 @@ h1{
         
         
     }
-
+    .homeRRSS{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
     .nav-links li{
         opacity: 1;
     }
@@ -250,9 +265,7 @@ h1{
         display: block;
         cursor: pointer;
     }
-    .listenOn{
-        flex-direction: 
-    }
+    
     .apple{
         margin-right: 0%;
         height: 70px;
@@ -301,6 +314,7 @@ h1{
 
 h1{
     color: white;
+    font-size: 150px;
 }
 p{
     color: white;
@@ -332,4 +346,15 @@ p{
 }
 .gmailLogo:hover{
     transform: scale(1.05);
+}
+#contactIcon{
+    height: 100px;
+    width: 100px;
+    transition: all .2s ease-in-out; 
+}
+#contactIcon:hover{
+    transform: scale(1.05);
+}
+.fono{
+    font-size: 50px;
 }
