@@ -167,13 +167,26 @@ h1{
 }
 .discos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 5%;
-    padding-bottom: 5%;
+  
     margin-bottom: 10%;
 }
+.albumThumb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    background-color: rgb(97, 94, 94,);
+    color: white;
+    font-size: 25px;
+}
 .portada{
+    padding: 15px;
     height: 300px;
     width: 300px;
     box-shadow:         12px 12px 29px rgb(19, 16, 16);
