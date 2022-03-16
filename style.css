@@ -324,7 +324,10 @@ h1{
     .homeRRSS{
         display: flex;
         justify-content: center;
-        margin-top: 200px;
+        margin-top: 300px;
+        
+        height: 100%;
+        
     }
     .nav-links li{
         opacity: 1;
